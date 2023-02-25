@@ -16,7 +16,7 @@ ecommerce-frontend/build
 
 
 # misc
-r
+.gitignore
 .env
 .DS_Store
 .env.local
