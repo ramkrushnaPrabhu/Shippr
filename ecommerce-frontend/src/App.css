@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header_Logo {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: xx-large;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.becomeSellerHeader {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Header_Logo--seller{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: xx-large;
+  font-style: italic;
+  text-decoration: none;
+  color:#2874f0
+}
+
+.Header_option--seller{
+  color: gray;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.pagination{
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination > span{
+  cursor: pointer;
+  border: 1px solid gray;
+  padding: 15px 20px;
+}
+
+.pagination__Selected{
+  background-color: rgb(138, 135, 135);
+}
+
+.pagination__disable{
+  opacity: 0;
+}
+
+@media (max-width: 480px) {
+
+
+  .becomeSellerHeader{
+    display: none;
+  }
+
+  .cartLogo{
+    display: none;
+  }
+
+  .Header_Logo {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
+    text-decoration: none;
+  }
+
+  .Header_option--seller{
+    display: none;
+  }
+.Header_Logo--seller{
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: x-large;
+  font-style: italic;
+  text-decoration: none;
+  color:#2874f0
+}
+
+}
+
+
+@media (max-width:768px) {
+  .becomeSellerHeader{
+    display: none;
+  }
+
+  .cartLogo{
+    display: none;
+  }
+
+  .Header_option--seller{
+    display: none;
+  }
+
+  .Header_Logo--seller{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+    text-decoration: none;
+    color:#2874f0
+  }
+
+}
